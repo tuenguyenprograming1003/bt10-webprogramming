@@ -1,0 +1,21 @@
+To push the 'spring-security-6-demos' folder to your GitHub repo (run this locally where you have git credentials):
+
+cd /path/to/your/workspace/demo
+# if you want the folder to contain the actual demo1 project, move files into spring-security-6-demos/demo1-inmemory-security
+# Example (optional): mv pom.xml src mvnw mvnw.cmd .mvn spring-security-6-demos/demo1-inmemory-security/
+
+cd spring-security-6-demos
+git init
+git checkout -b main
+git add .
+git commit -m "Add demo1-inmemory-security and placeholders for demo2/demo3"
+# Add your remote (HTTPS or SSH)
+git remote add origin https://github.com/tuenguyenprograming1003/bt10-webprogramming.git
+# Push (you may be prompted for credentials or use PAT/SSH key)
+git push -u origin main
+
+If push fails due to authentication, set up:
+- SSH key and add to GitHub (recommended), then use git remote set-url origin git@github.com:tuenguyenprograming1003/bt10-webprogramming.git
+- Or create a Personal Access Token (PAT) and use it with HTTPS push.
+
+If you want, I can provide exact commands to set up an SSH key and add it to GitHub.
