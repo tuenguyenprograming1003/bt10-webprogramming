@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8" />
+    <title>Index</title>
+</head>
+<body>
+<h1>Welcome</h1>
+<div sec:authorize="hasRole('ADMIN')">
+    <p>This is visible to ADMIN only</p>
+</div>
+<div sec:authorize="hasRole('USER')">
+    <p>This is visible to USER</p>
+</div>
+<div sec:authorize="isAuthenticated()">
+    <p>Authenticated user: <span sec:authentication="name"></span></p>
+    <p><a th:href="@{/logout}">Logout</a></p>
+</div>
+<div sec:authorize="isAnonymous()">
+    <p><a th:href="@{/login}">Login</a></p>
+</div>
+</body>
+</html>
+
