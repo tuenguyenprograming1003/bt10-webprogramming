@@ -1,0 +1,7 @@
+/Users/ductue/HK6/WEB/demo/spring-security-6-demos/demo2-db-security/src/main/java/com/example/demo2/Demo2Application.java
+/Users/ductue/HK6/WEB/demo/spring-security-6-demos/demo2-db-security/src/main/java/com/example/demo2/config/SecurityConfig.java
+/Users/ductue/HK6/WEB/demo/spring-security-6-demos/demo2-db-security/src/main/java/com/example/demo2/controller/HelloController.java
+/Users/ductue/HK6/WEB/demo/spring-security-6-demos/demo2-db-security/src/main/java/com/example/demo2/model/UserInfo.java
+/Users/ductue/HK6/WEB/demo/spring-security-6-demos/demo2-db-security/src/main/java/com/example/demo2/repo/UserInfoRepository.java
+/Users/ductue/HK6/WEB/demo/spring-security-6-demos/demo2-db-security/src/main/java/com/example/demo2/security/UserInfoUserDetails.java
+/Users/ductue/HK6/WEB/demo/spring-security-6-demos/demo2-db-security/src/main/java/com/example/demo2/service/UserInfoDetailsService.java

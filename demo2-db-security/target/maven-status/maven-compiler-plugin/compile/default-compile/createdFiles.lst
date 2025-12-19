@@ -1,0 +1,7 @@
+com/example/demo2/service/UserInfoDetailsService.class
+com/example/demo2/repo/UserInfoRepository.class
+com/example/demo2/config/SecurityConfig.class
+com/example/demo2/security/UserInfoUserDetails.class
+com/example/demo2/model/UserInfo.class
+com/example/demo2/Demo2Application.class
+com/example/demo2/controller/HelloController.class
